@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 자손 결합자 */
+        /* div를 만족하는 요소의 자손 요소 중 p를 만족하는 요소 */
+        div p {
+            color: blue;
+        }
+        /* 자식 결합자 */
+        /* div를 만족하는 요소의 자식 요소 중 p를 만족하는 요소를 가르킨다. */
+        div > p {
+            color: crimson;
+        }
+        .margin {
+            margin-left: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- 부모가 div > p인 자식에 crimson색깔 지정 -->
+    <div>
+        <p>자식</p>
+        <span>
+            <p class="margin">손자</p>
+        </span>
+        <p>자식</p>
+    </div>
+
+</body>
+</html>

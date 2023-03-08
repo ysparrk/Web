@@ -1,0 +1,28 @@
+.box {
+    background-color: aquamarine;
+    width: 100;
+    height: 100px;
+    /* margin-right */
+    margin-left: auto;
+    margin-right: auto;
+
+
+    /*  전부 */
+    margin: 20 auto;
+
+
+    text-align: center;
+
+    /* 인라인으로 두 요소가 들어간다... */
+    display: inline;
+
+}
+
+/* DIV 글자를 정가운데로 */
+span {
+    line-height: 100px;
+}
+
+.test {
+    display: none;
+}
