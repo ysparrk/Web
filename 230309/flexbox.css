@@ -1,0 +1,21 @@
+.container {
+    /* 옆으로 붙인다. 한줄로 가능! */
+    display: flex;
+
+    /* row는 기본값 */
+    /* flex-direction: row;   */
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+
+    margin-top: 20px;
+    margin-right: 20px;
+
+    font-size: 50px;
+}

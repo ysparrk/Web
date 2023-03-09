@@ -1,0 +1,98 @@
+.big-area {
+    width: 450px;
+    height: 500px;
+}
+
+.invalid {
+    border-radius: 5px;
+    width:450px;
+    height: 50px;
+    background-color: red;
+    line-height: 50px;
+    color: white;
+    padding-left: 15px;
+}
+
+.ssafy {
+    font-size: 36px;
+    font-weight: bold;
+    border-bottom: 1px solid rgba(148, 144, 144, 0.411);
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-bottom: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-box{
+    width: 450px;
+    height: 320px;
+    border: 1px solid rgba(148, 144, 144, 0.411);
+    border-radius: 3px;
+}
+
+h3 {
+    font-size: 15px;
+}
+
+#center {
+  text-align: center;
+}
+
+.blue {
+  border-bottom: 2px solid rgb(34, 94, 221);
+}
+
+.box {
+  width: 380px;
+  height: 25px;
+  border: 1px solid rgba(148, 144, 144, 0.411);
+  border-radius: 3px; 
+}
+
+.button {
+  width: 410px;
+  height: 30px;
+  background-color: green;
+  border: 0px;
+  color: white;
+  border-radius: 3px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+#left {
+  justify-self: flex-start;
+}
+
+#blue {
+  color: rgb(34, 94, 221);
+  margin-left: 120px;
+  
+}
+
+#box {
+  border: 1px solid rgba(148, 144, 144, 0.411);
+  border-radius: 3px;
+  height: 20px;
+}
+
+span {
+  display: inline;
+}
+
+.marge {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+

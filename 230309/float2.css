@@ -1,0 +1,19 @@
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: orangered;
+    border: 1px solid black;
+
+    float: left;
+}
+
+.box2 {
+    background-color: aquamarine;
+}
+
+/* 1) 이걸 box1에 주게되면 box1, 2가 겹치게 된다. */
+/* 2) box2에도 주게 된다면 box1 옆에 붙게 된다. => 박스를 내가 원하는 방향으로  쌓을 수 있다. */
+/* 3) 이를 활용해 float으로 레이아웃을 잡게 된다. */
+.left {
+    float: left;
+}
