@@ -1,0 +1,51 @@
+.circle {
+    width: 100px;
+    height: 100px;
+
+    border-radius: 50%;
+}
+
+.rect {
+    width: 100px;
+    height: 100px;
+}
+
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.sm {
+    width: 50px;
+    height: 50px;
+}
+
+.lg {
+    width: 150px;
+    height: 150px;
+}
+
+
+
+/* 컴퓨터에 없어도 다른 형태로 준다. url을 가져와서 font-family에 넣어줄 수 있다. */
+@font-face {
+    font-family: '짱이쁜 폰트';
+    src: url();
+}
+
+/* 폰트 지정, 이게 없으면 저거쓰고 없으면 저거쓰고 이런 느낌 */
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+    font-family: '짱이쁜 폰트';
+}
