@@ -1,8 +1,0 @@
-.box {
-    width: 100px;
-    height: 100px;
-    background-color: orange;
-    /* float, 박스를 붕 띄운다 */
-    float: left;
-    margin-right: 10px;
-}
