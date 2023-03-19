@@ -1,0 +1,31 @@
+/* 전체 선택자 */
+* {
+  color: red;
+}
+
+/* 요소 선택자 : 같은 태그 모두 바뀜 */
+h2 {
+  color: orange;
+}
+
+/* 클래스 선택자 : 여러 곳에 적용할 때 */
+.class {
+  color: green;
+}
+
+/* id 선택자 : 유일하게 바꾸고 싶을 때 */
+#id {
+  color: aqua;
+}
+
+/* 자식 결합자 */
+/* box의 자식 중 p인 것  */
+.box > p {
+  font-size: 30px;
+}
+
+/* 자손 결합자 */
+/* box 아래의 자식 및 손자 포함해서 p인 것  */
+.box p {
+  color: blue;
+}

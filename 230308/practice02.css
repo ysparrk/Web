@@ -1,0 +1,33 @@
+
+
+/* div가 클래스를 box로 받을 때 */
+/* content는 width100px, 색깔이 없는 영역은 모두 margin */
+.box {
+  background-color: aqua;
+  width: 100px;
+  height: 100px;
+
+  /* 박스가 왼쪽 끝으로 간다 */
+  margin-right: auto;
+  /* 박스가 오른쪽 끝으로 간다 */
+  margin-left: auto;
+
+  /* 둘다 사용할 경우 박스가 가운데 위치 */
+  margin-right: auto;
+  margin-left: auto;
+
+  /* 텍스트 정렬 */
+  text-align: left;
+  text-align: right;
+  text-align: center;
+
+  /* display로 속성을 바꿀 수 있다 */
+  display: inline;
+}
+
+span {
+  /* 텍스트를 수평, 수직 정렬 */
+  line-height: 100px;
+
+}
+

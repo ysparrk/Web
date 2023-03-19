@@ -1,0 +1,25 @@
+/* margin */
+.margin {
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-left: 40px;
+}
+
+/* 한번에 상하좌우에 주기 */
+.margin-padding {
+  margin: 10px;
+  padding: 30px;
+}
+
+/* border */
+.border {
+  border-width: 2px;
+  border-style: dashed;
+  border-color: blue;
+}
+
+/* border shorthand */
+.border {
+  border: 2px dashed blue;
+}

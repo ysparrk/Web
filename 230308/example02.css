@@ -1,0 +1,40 @@
+/* 안 건들면 static */
+div {
+  height: 100px;
+  width: 100px;
+  background-color: aquamarine;
+  color: black;
+  line-height: 100;
+  text-align: center;
+}
+
+/* 기존 위치 대비 */
+.relative {
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+
+/* normal flow에서 벗어나 부모를 기준으로 위치 */
+.parent {
+  position: relative;
+}
+
+.absolute-child {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+/* fixed : 오른쪽 맨 아래에 간다*/
+.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+/* sticky : top20px이 확보되지 않는 순간 내려가지 않는다*/
+.sticky {
+  position: sticky;
+  top: 20px;
+}
