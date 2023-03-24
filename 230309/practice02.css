@@ -1,0 +1,28 @@
+.header {
+  height: 100px;
+  background-color: orange;
+}
+
+.section-left {
+  height: 500px;
+  background-color: green;
+  width: 30%;
+}
+
+.section-right {
+  height: 500px;
+  background-color: blue;
+  width: 70%;
+}
+
+.footer {
+  height: 100px;
+  background-color: yellowgreen;
+  /* float 다음부터 시작하게 된다. */
+  clear: both;
+}
+
+/* float으로 띄운다 */
+.left {
+  float: left;
+}
